@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/style.css"
+    />
+  </head>
+
+  <body>
+    <h1 class="title">Crystal Collector!</h1>
+
+    <div class="container">
+      <div class="text">
+        You will be given a random number at the start of the game. There are
+        four crystals below. By clicking on a crystal you will add a specific
+        amount of points to your total score. Each round the number is
+        randomized. You win the game by matching your total score to the current
+        random number displayed. You lose the game if your total score goes
+        above the random number. The value of each crystal is hidden from you
+        until you click on it. Each time the game starts, the game will change
+        the values of each crystal.
+      </div>
+    </div>
+
+    <br />
+
+    <div class="big_container">
+      <div class="small_container">
+        <div class="text" id="randomNumber">Current Random #:</div>
+      </div>
+
+      <div class="small_container">
+        <div class="text" id="totalWins">Wins:</div>
+        <br />
+        <div class="text" id="totalLosses">Losses:</div>
+      </div>
+
+      <div class="small_container">
+        <div class="text" id="currentScore">Your total score is:</div>
+      </div>
+      <br />
+
+      <div class="icons_row">
+        <img class="icons" id="crystal_1" src="assets/images/earth_badge.png" />
+        <img class="icons" id="crystal_2" src="assets/images/fire_badge.png" />
+        <img
+          class="icons"
+          id="crystal_3"
+          src="assets/images/rainbow_badge.png"
+        />
+        <img class="icons" id="crystal_4" src="assets/images/water_badge.png" />
+      </div>
+    </div>
+
+    <br />
+
+    <script src="assets/javascript/game.js"></script>
+  </body>
+</html>

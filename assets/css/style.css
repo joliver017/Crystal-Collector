@@ -26,6 +26,14 @@ body {
     padding: 0px 10px 0px 10px;
 }
 
+.bigNumber {
+    font-family: Verdana;
+    font-size: 32px;
+    text-align: center;
+    color: #0070B6;
+    padding: 0px 10px 0px 10px;
+}
+
 .container {
     padding: 40px 20px 40px 20px;
     width: 80%;
@@ -49,6 +57,7 @@ body {
     height: 50%;
     margin-left: 20px;
     padding-top: 30px;
+    padding-right: 10px;
     float: left;
     background-color: #fff;
     border: 5px solid #0C5492;

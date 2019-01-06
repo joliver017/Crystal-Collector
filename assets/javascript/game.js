@@ -16,6 +16,30 @@ console.log(value_3);
 console.log(value_4);
 
 // This randomly selects and writes a random number when doc is ready
-$( document ).ready(function(){
+$( document ).ready(function() {
 $("#currentNumber").text(randomNumber);
+});
+
+$("#crystal_1").on("click", function() {
+    totalScore = totalScore + value_1;
+    console.log("total score = " + totalScore);
+    $("#totalScore").text(totalScore);
+});
+
+$("#crystal_2").on("click", function() {
+    totalScore = totalScore + value_2;
+    console.log("total score = " + totalScore);
+    $("#totalScore").text(totalScore);
+});
+
+$("#crystal_3").on("click", function() {
+    totalScore = totalScore + value_3;
+    console.log("total score = " + totalScore);
+    $("#totalScore").text(totalScore);
+});
+
+$("#crystal_4").on("click", function() {
+    totalScore = totalScore + value_4;
+    console.log("total score = " + totalScore);
+    $("#totalScore").text(totalScore);
 });

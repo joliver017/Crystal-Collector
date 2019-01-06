@@ -24,22 +24,50 @@ $("#crystal_1").on("click", function() {
     totalScore = totalScore + value_1;
     console.log("total score = " + totalScore);
     $("#totalScore").text(totalScore);
+
+    if (totalScore === randomNumber){
+        alert("you win");
+    }
+    else if (totalScore > randomNumber){
+        alert("you lose");
+    }
 });
 
 $("#crystal_2").on("click", function() {
     totalScore = totalScore + value_2;
     console.log("total score = " + totalScore);
     $("#totalScore").text(totalScore);
+
+    if (totalScore === randomNumber){
+        alert("you win");
+    }
+    else if (totalScore > randomNumber){
+        alert("you lose");
+    }
 });
 
 $("#crystal_3").on("click", function() {
     totalScore = totalScore + value_3;
     console.log("total score = " + totalScore);
     $("#totalScore").text(totalScore);
+
+    if (totalScore === randomNumber){
+        alert("you win");
+    }
+    else if (totalScore > randomNumber){
+        alert("you lose");
+    }
 });
 
 $("#crystal_4").on("click", function() {
     totalScore = totalScore + value_4;
     console.log("total score = " + totalScore);
     $("#totalScore").text(totalScore);
+
+    if (totalScore === randomNumber){
+        alert("you win");
+    }
+    else if (totalScore > randomNumber){
+        alert("you lose");
+    }
 });

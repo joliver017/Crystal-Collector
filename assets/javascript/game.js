@@ -66,11 +66,13 @@ function winLose() {
     totalScore = 0;
     $("#totalScore").text(totalScore);
 
-    var value_1 = Math.floor(Math.random() * 12) + 1;
-    var value_2 = Math.floor(Math.random() * 12) + 1;
-    var value_3 = Math.floor(Math.random() * 12) + 1;
-    var value_4 = Math.floor(Math.random() * 12) + 1;
-  } else if (totalScore > randomNumber) {
+    value_1 = Math.floor(Math.random() * 12) + 1;
+    value_2 = Math.floor(Math.random() * 12) + 1;
+    value_3 = Math.floor(Math.random() * 12) + 1;
+    value_4 = Math.floor(Math.random() * 12) + 1;
+  } 
+  
+  else if (totalScore > randomNumber) {
     alert("you lose");
     totalLosses++;
     $("#totalLosses").text(totalLosses);
@@ -80,9 +82,9 @@ function winLose() {
     totalScore = 0;
     $("#totalScore").text(totalScore);
 
-    var value_1 = Math.floor(Math.random() * 12) + 1;
-    var value_2 = Math.floor(Math.random() * 12) + 1;
-    var value_3 = Math.floor(Math.random() * 12) + 1;
-    var value_4 = Math.floor(Math.random() * 12) + 1;
+    value_1 = Math.floor(Math.random() * 12) + 1;
+    value_2 = Math.floor(Math.random() * 12) + 1;
+    value_3 = Math.floor(Math.random() * 12) + 1;
+    value_4 = Math.floor(Math.random() * 12) + 1;
   }
-}
+};

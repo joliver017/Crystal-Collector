@@ -1,4 +1,6 @@
 body {
+    background-image: url("../images/pokemon_badges.png");
+    background-size: 50px;
     background-color: #47A8BD;
 }
 
